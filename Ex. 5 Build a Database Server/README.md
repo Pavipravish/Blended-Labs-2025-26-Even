@@ -2,9 +2,9 @@
 
 ## Author
 
-* **Name**: muhturevula pravish J________________________________
-* **Register Number**: 212224040249_____________________
-* **Date of Submission**: 20\05\2026__________________
+* **Name**: PRAVISH J
+* **Register Number**:212224040249
+* **Date of Submission**: 17.03.2026
 
 ---
 
@@ -82,13 +82,12 @@ Test the database server by connecting to it locally or remotely and performing 
 
 ## Workflow (Student Explanation)
 
-(Write the steps you followed in your own words)
+1. First, a security group named DB Security Group was created to allow the web server to connect to the database using port 3306 (MySQL).
+2. A DB Subnet Group was created with subnets from two Availability Zones to allow the database to run in a Multi-AZ environment for high availability.
+3. A MySQL RDS instance named lab-db was created with the database name lab, username main, and password lab-password.
+4. The database was associated with the DB Security Group and the Lab VPC so that the web server can securely connect to the database.
+5. The web application running on the EC2 server was opened using its IP address, and the RDS endpoint, database name, username, and password were entered to interact with the database.
 
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
 
 ---
 
@@ -96,17 +95,21 @@ Test the database server by connecting to it locally or remotely and performing 
 
 ### Screenshot 1: EC2 Instance for Database Server
 
-<img width="1268" height="625" alt="image" src="https://github.com/user-attachments/assets/443f2d6d-1f29-4a48-8619-3c2cf6dc674f" />
+<img width="1919" height="1026" alt="Screenshot 2026-03-01 102831" src="https://github.com/user-attachments/assets/1d3d12d2-6e67-45d9-b774-7b1f60405f5f" />
 
+---
 
 ### Screenshot 2: Database Service Running
 
-<img width="1257" height="947" alt="image" src="https://github.com/user-attachments/assets/d1f67b7d-5985-416f-8033-dd684bb9a64d" />
+<img width="1919" height="1046" alt="Screenshot 2026-03-01 104042" src="https://github.com/user-attachments/assets/4e440ff0-99de-4be6-96ea-b41b836ef95e" />
+
+---
 
 ### Screenshot 3: Sample Database and Table
 
-<img width="1250" height="455" alt="image" src="https://github.com/user-attachments/assets/58502e39-a229-4761-8392-c48973849f58" />
+<img width="1910" height="1133" alt="Screenshot 2026-03-01 105153" src="https://github.com/user-attachments/assets/a6917d75-af8c-4dd8-bf5f-45b03f311162" />
 
+---
 
 ## Result
 
